@@ -14,4 +14,5 @@ export class CreatePokemonDto {
     @IsString(({ message: 'The name must be a string'}))
     @MinLength(1, ({message: 'Min length 1'}))
     name: string;
+    
 }
